@@ -1,0 +1,209 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  
+}
+
+html {
+  font-size:13px;
+  font-family:"Barlow Semi Condensed";
+}
+
+body {
+  width:1440px;
+  margin-top:163px;
+  margin-bottom:163px;
+  background:hsl(210, 46%, 95%);
+}
+
+.container {
+  display:grid;
+  width:1115px;
+  height:576px;
+  margin-left:auto;
+  margin-right:auto;
+  grid-template-columns: 1fr 30px 1fr 30px 1fr 30px 1fr 30px;
+  grid-template-rows: 282px 25px 1fr;
+  column-gap:30px;
+  row-gap:25px;
+
+}
+
+h2 {
+  color:hsl(0, 0%, 100%);
+  font-weight:500;
+  opacity:170% !important;
+}
+
+ .quote {
+    position:relative;
+    top:-244px;
+    opacity:60%;
+    right:-313px;
+  }
+
+
+
+.daniel {
+  display:grid;
+  grid-area: 1 / 1 / 2 / 5;
+  background:hsl(263, 55%, 52%);
+  border-radius:10px;
+  text-align:left;
+  padding:30px;
+  min-width:0;
+  min-height:0;
+}
+  
+
+
+.daniel-profile {
+  position:relative;
+  left:20px;
+  display:flex;
+  flex-direction:column;
+  align-self:center;
+  align-items:left;
+  justify-content:left;
+  text-direction:left;
+  
+  
+  
+}
+
+.daniel-pic {
+  border-radius:20px;
+  width:30px;
+  height:30px;
+  border:purple 3px solid;
+}
+
+.daniel-info {
+  color:white;
+  align-self:center;
+  
+}
+
+.daniel-all {
+  display:inline-flex;
+  flex-direction:row;
+  justify-content:left;
+  align-self:center;
+}
+
+
+p {
+  font-size:13px;
+  color:hsl(0, 0%, 81%);
+  font-family:"Barlow Semi Condensed";
+  font-weight:400;
+  opacity:70%;
+  
+}
+
+.verified {
+  color:hsl(0, 0%, 81%);
+  opacity:50%;
+  font-size:11px;
+}
+
+.white {
+  color:hsl(0, 0%, 100%);
+  opacity:110%;
+}
+
+.jon {
+  display:grid;
+  grid-area: 1 / 5 / 2 / 7;
+  gap:30px;
+  background:hsl(217, 19%, 35%);
+  border-radius:10px;
+  padding:30px;
+  
+  
+
+}
+
+.text {
+  position:relative;
+  top:-15px;
+}
+
+.jon-profile {
+  position:relative;
+  left:20px;
+  display:flex;
+  flex-direction:column;
+  align-self:center;
+  align-items:left;
+  justify-content:left;
+  text-direction:left;
+  
+  
+}
+
+.jon-pic {
+  border-radius:20px;
+  width:30px;
+  height:30px;
+  border:purple 3px solid;
+}
+
+.jon-info {
+  color:white;
+  align-self:center;
+}
+
+.jon-all {
+  display:inline-flex;
+  flex-direction:row;
+  justify-content:left;
+  align-self:center;
+}
+
+
+.kira {
+  display:grid;
+  grid-area: 1 / 7 / 4 / 9;
+  justify-content:center;
+  align-items:center;
+  background:white;
+  border-radius:10px;
+}
+  
+
+
+.jean {
+  display:flex;
+  flex-direction:column;
+  grid-area: 2 / 1 / 4 / 3 ;
+  background:hsl(0, 0%, 100%);
+  border-radius:10px;
+  min-width:0;
+  min-height:0;
+}
+
+.pat {
+  display:grid;
+  grid-area: 2 / 3 / 4 / 7;
+  background:hsl(219, 29%, 14%);
+  color:white;
+  border-radius:10px;
+  
+}
+
+
+
+
+
+.jean-pic {
+  width:25%;
+  height:25%;
+}
+
+.black {
+  color:black;
+  flex-direction:row;
+
+}
