@@ -38,9 +38,10 @@ h2 {
 
  .quote {
     position:relative;
-    top:-244px;
+    top:-260px;
     opacity:60%;
     right:-313px;
+   height:110%;
   }
 
 
@@ -58,7 +59,7 @@ h2 {
   
 
 
-.daniel-profile {
+.profile {
   position:relative;
   left:20px;
   display:flex;
@@ -72,20 +73,20 @@ h2 {
   
 }
 
-.daniel-pic {
+.profile-pic {
   border-radius:20px;
   width:30px;
   height:30px;
   border:purple 3px solid;
 }
 
-.daniel-info {
+.profile-info {
   color:white;
   align-self:center;
   
 }
 
-.daniel-all {
+.profile-all {
   display:inline-flex;
   flex-direction:row;
   justify-content:left;
@@ -94,16 +95,17 @@ h2 {
 
 
 p {
-  font-size:13px;
+  font-size:13.5px;
   color:hsl(0, 0%, 81%);
   font-family:"Barlow Semi Condensed";
   font-weight:400;
   opacity:70%;
+line-height:1.4rem;
   
 }
 
 .verified {
-  color:hsl(0, 0%, 81%);
+  color:hsl(0, 0%, 100%);
   opacity:50%;
   font-size:11px;
 }
@@ -143,11 +145,11 @@ p {
   
 }
 
-.jon-pic {
+.profile-pic {
   border-radius:20px;
   width:30px;
   height:30px;
-  border:purple 3px solid;
+  border:silver 3px solid;
 }
 
 .jon-info {
@@ -163,14 +165,18 @@ p {
 }
 
 
-.kira {
-  display:grid;
-  grid-area: 1 / 7 / 4 / 9;
-  justify-content:center;
-  align-items:center;
-  background:white;
-  border-radius:10px;
-}
+
+
+
+
+
+
+
+
+
+
+
+
   
 
 
@@ -182,24 +188,14 @@ p {
   border-radius:10px;
   min-width:0;
   min-height:0;
+  padding:30px;
 }
-
-.pat {
-  display:grid;
-  grid-area: 2 / 3 / 4 / 7;
-  background:hsl(219, 29%, 14%);
-  color:white;
-  border-radius:10px;
-  
-}
-
-
-
-
 
 .jean-pic {
   width:25%;
   height:25%;
+
+  
 }
 
 .black {
@@ -207,3 +203,135 @@ p {
   flex-direction:row;
 
 }
+
+
+.kira {
+  display:grid;
+  grid-area: 1 / 7 / 4 / 9;
+  justify-content:center;
+  align-items:center;
+  background:white;
+  border-radius:10px;
+  padding:30px;
+}
+
+
+/* Jean and Kira*/
+
+.profile-all-2 {
+ display:flex;
+  flex-direction:column;
+  align-self:center;
+  align-items:left;
+  justify-content:left;
+  text-direction:left;
+  
+}
+
+.profile-pic {
+  border-radius:20px;
+  width:30px;
+  height:30px;
+  border:purple 3px solid;
+}
+
+
+.profile-all {
+  display:inline-flex;
+  flex-direction:row;
+  justify-content:left;
+  align-self:center;
+}
+
+.profile-2-jean {
+  display:inline-flex;
+  flex-direction:column;
+  position:relative;
+  color:black;
+  left:-10px;
+}
+
+.profile-pic-jean {
+  border-radius:20px;
+  width:30px;
+  height:30px;
+  border:purple 3px solid;
+  position:relative;
+  left:-30px;
+  
+}
+
+.white-2 {
+  color:black;
+}
+
+.black-2 {
+  color:hsl(217, 19%, 35%);
+  font-size:13.5px;
+  font-family:"Barlow Semi Condensed";
+  font-weight:400;
+  opacity:70%;
+  line-height:1.4rem;
+}
+
+
+
+.black {
+ color:hsl(217, 19%, 35%);
+  font-weight:500;
+  opacity:170% !important;
+}
+
+.profile-all-2 {
+  display:inline-flex;
+  flex-direction:row;
+  justify-content:left;
+  align-self:center;
+}
+
+.verified-2 {
+  color:hsl(217, 19%, 35%);
+  opacity:50%;
+  font-size:11px;
+}
+
+
+.profile-all-kira{
+display:inline-flex;
+  flex-direction:row;
+  justify-content:left;
+  align-self:center;
+}
+
+
+.profile-2-kira {
+  position:relative;
+  left:20px;
+}
+
+
+
+
+
+
+.pat {
+  display:grid;
+  grid-area: 2 / 3 / 4 / 7;
+  background:hsl(219, 29%, 14%);
+  color:white;
+  border-radius:10px;
+  padding:30px;
+  
+}
+
+
+
+
+
+
+
+
+
+/*Kira and Jen*/
+
+
