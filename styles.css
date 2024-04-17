@@ -33,16 +33,11 @@ body {
 h2 {
   color:hsl(0, 0%, 100%);
   font-weight:500;
-  opacity:170% !important;
+  font-size:20px;
+   position:relative;
+  top:-10px;
 }
 
- .quote {
-    position:relative;
-    top:-260px;
-    opacity:60%;
-    right:-313px;
-   height:110%;
-  }
 
 
 
@@ -55,6 +50,10 @@ h2 {
   padding:30px;
   min-width:0;
   min-height:0;
+  background-image:url("https://assets.codepen.io/11868974/bg-pattern-quotation.svg");
+  background-repeat:no-repeat;
+  background-position:79.5% 0%;
+  
 }
   
 
@@ -73,12 +72,39 @@ h2 {
   
 }
 
-.profile-pic {
-  border-radius:20px;
+
+.profile-pic-1 {
+   border-radius:20px;
   width:30px;
   height:30px;
-  border:purple 3px solid;
+  border:hsl(263, 5%, 62%) 3px solid;
 }
+
+
+.profile-pic-2 {
+   border-radius:20px;
+  width:30px;
+  height:30px;
+  border:inherit 3px solid;
+}
+
+.profile-pic-3 {
+   border-radius:20px;
+  width:30px;
+  height:30px;
+  border:inherit 3px solid;
+   position:relative;
+  top:-5px;
+}
+
+.profile-pic-4 {
+   border-radius:20px;
+  width:30px;
+  height:30px;
+  border:hsl(263, 35%, 42%) 3px solid;
+}
+
+
 
 .profile-info {
   color:white;
@@ -91,16 +117,33 @@ h2 {
   flex-direction:row;
   justify-content:left;
   align-self:center;
+  position:relative;
+  top:-5px;
 }
 
+
+.text-whole {
+   position:relative;
+  top:-10px;
+ 
+  
+}
+
+.text-whole-2 {
+  position:relative;
+  top:-3px;
+  font-size:13px;
+   font-family:"Barlow Semi Condensed";
+}
 
 p {
   font-size:13.5px;
   color:hsl(0, 0%, 81%);
   font-family:"Barlow Semi Condensed";
   font-weight:400;
-  opacity:70%;
+  opacity:80%;
 line-height:1.4rem;
+  
   
 }
 
@@ -108,11 +151,15 @@ line-height:1.4rem;
   color:hsl(0, 0%, 100%);
   opacity:50%;
   font-size:11px;
+  position:relative;
+  top:-3px;
+ 
 }
 
 .white {
   color:hsl(0, 0%, 100%);
   opacity:110%;
+ 
 }
 
 .jon {
@@ -189,6 +236,7 @@ line-height:1.4rem;
   min-width:0;
   min-height:0;
   padding:30px;
+   box-shadow: 0 10px 66px rgba(0, 0, 0, 0.05);
 }
 
 .jean-pic {
@@ -213,6 +261,7 @@ line-height:1.4rem;
   background:white;
   border-radius:10px;
   padding:30px;
+  box-shadow: 0 10px 66px rgba(0, 0, 0, 0.05);
 }
 
 
@@ -221,19 +270,13 @@ line-height:1.4rem;
 .profile-all-2 {
  display:flex;
   flex-direction:column;
-  align-self:center;
   align-items:left;
-  justify-content:left;
+  justify-content:center;
   text-direction:left;
   
 }
 
-.profile-pic {
-  border-radius:20px;
-  width:30px;
-  height:30px;
-  border:purple 3px solid;
-}
+
 
 
 .profile-all {
@@ -248,38 +291,43 @@ line-height:1.4rem;
   flex-direction:column;
   position:relative;
   color:black;
-  left:-10px;
+  left:-17px;
 }
 
 .profile-pic-jean {
   border-radius:20px;
   width:30px;
   height:30px;
-  border:purple 3px solid;
+  border:inherit 3px solid;
   position:relative;
-  left:-30px;
-  
+  left:-35px;
+  top:-7px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
 }
 
-.white-2 {
-  color:black;
-}
+
 
 .black-2 {
   color:hsl(217, 19%, 35%);
   font-size:13.5px;
   font-family:"Barlow Semi Condensed";
   font-weight:400;
-  opacity:70%;
+  opacity:80%;
   line-height:1.4rem;
+   position:relative;
+  top:-7px;
 }
 
 
 
 .black {
  color:hsl(217, 19%, 35%);
-  font-weight:500;
-  opacity:170% !important;
+  font-weight:600;
+  font-size:21px;
+   position:relative;
+  top:-12px;
 }
 
 .profile-all-2 {
@@ -289,10 +337,21 @@ line-height:1.4rem;
   align-self:center;
 }
 
+
+.white-2 {
+  color:black;
+   position:relative;
+  top:-7px;
+  font-weight:500;
+}
+
+
 .verified-2 {
   color:hsl(217, 19%, 35%);
-  opacity:50%;
+  opacity:60%;
   font-size:11px;
+  position:relative;
+  top:-10px;
 }
 
 
@@ -322,6 +381,7 @@ display:inline-flex;
   border-radius:10px;
   padding:30px;
   
+  
 }
 
 
@@ -331,7 +391,5 @@ display:inline-flex;
 
 
 
-
-/*Kira and Jen*/
 
 
