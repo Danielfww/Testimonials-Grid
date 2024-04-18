@@ -18,6 +18,25 @@ View the optimal layout for the site depending on their device's screen size:
 <br>
 ![desktop-preview](https://github.com/Danielfww/Testimonials-Grid/assets/158219974/af43d968-66bc-42db-9c40-6eee5b17acbc)
 <br>
+<br>
+<b>Technologies</b> I used in this project were:
+Grid,
+Responsive layout,
+Media queries
+<br>
+<br>
+*Challenges I faced:
+<br>
+While the project didn't really required for me to learn anything new that I didn't already knew - I realized that I have still few problems:
+- When I write a code I tend to create new CSS lines of the code that could be reused from the other divs, in the future I will try to look first at the design and see what elements can use the same CSS code instead overwriting stuff,
+- Grid, while it wasn't as bad as last few attempts I still seem to struggle as to how design the divs correctly;
+
+
+
+Author: Danielfww
+
+Credits: Shotouts to https://github.com/Pipendog and https://github.com/NobelBeastPrize for always being there for me.
+Shot-out to https://github.com/Cheosphere/ - those pixel perfect designs is something I aspire to.
 
 
 
