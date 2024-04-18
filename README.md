@@ -25,7 +25,8 @@ Responsive layout,
 Media queries
 <br>
 <br>
-*Challenges I faced:
+<b>Challenges</b> I faced:
+<br>
 <br>
 While the project didn't really required for me to learn anything new that I didn't already knew - I realized that I have still few problems:
 - When I write a code I tend to create new CSS lines of the code that could be reused from the other divs, in the future I will try to look first at the design and see what elements can use the same CSS code instead overwriting stuff,
@@ -36,6 +37,7 @@ While the project didn't really required for me to learn anything new that I did
 Author: Danielfww
 
 Credits: Shotouts to https://github.com/Pipendog and https://github.com/NobelBeastPrize for always being there for me.
+<br>
 Shot-out to https://github.com/Cheosphere/ - those pixel perfect designs is something I aspire to.
 
 
