@@ -30,7 +30,7 @@ Media queries
 <br>
 While the project didn't really required for me to learn anything new that I didn't already knew - I realized that I have still few problems:
 - When I write a code I tend to create new CSS lines of the code that could be reused from the other divs - In the future I will try to look first at the design and see what elements can use the same CSS code instead overwriting stuff,
-- Grid, while it wasn't as bad as last few attempts I still seem to struggle as to how design the divs correctly;
+- Grid, while it wasn't as bad as last few attempts I still seem to struggle as to how design the divs correctly.
 
 
 
